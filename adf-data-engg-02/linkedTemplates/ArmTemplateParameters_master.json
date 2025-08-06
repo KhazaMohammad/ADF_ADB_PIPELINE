@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-data-engg-02"
+		},
+		"ls_adls_datalake_accountKey": {
+			"value": ""
+		},
+		"ls_adls_json_accountKey": {
+			"value": ""
+		},
+		"ls_AzureKeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://sqlserverlogin-details.vault.azure.net/"
+		},
+		"ls_adls_datalake_properties_typeProperties_url": {
+			"value": "https://adventureworks0011.dfs.core.windows.net/"
+		},
+		"ls_adls_json_properties_typeProperties_url": {
+			"value": "https://adventureworks0011.dfs.core.windows.net/"
+		},
+		"ls_onpremise_sqlserver_properties_typeProperties_server": {
+			"value": "DESKTOP-4GO7QUM\\SQLEXPRESS"
+		},
+		"ls_onpremise_sqlserver_properties_typeProperties_database": {
+			"value": "AdventureWorksLT2022"
+		},
+		"ls_onpremise_sqlserver_properties_typeProperties_userName": {
+			"value": "sa_khaza"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
