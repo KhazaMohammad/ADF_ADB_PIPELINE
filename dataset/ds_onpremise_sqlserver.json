@@ -1,0 +1,16 @@
+{
+	"name": "ds_onpremise_sqlserver",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_onpremise_sqlserver",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "SalesLT",
+			"table": "Address"
+		}
+	}
+}
