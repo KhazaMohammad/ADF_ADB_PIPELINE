@@ -1,0 +1,9 @@
+{
+	"name": "adf-data-engg-02",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "cc2f18da-118e-4696-81f7-f2a04a44b80a",
+		"tenantId": "e1447e17-0422-427c-9492-b98f58b47e22"
+	}
+}
