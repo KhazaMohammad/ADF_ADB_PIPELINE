@@ -1,0 +1,32 @@
+{
+	"name": "ds_config_json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_json",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "config_adventure_works_table_list.json",
+				"fileSystem": "config"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"database_name": {
+					"type": "string"
+				},
+				"table_schema": {
+					"type": "string"
+				},
+				"table_name": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}

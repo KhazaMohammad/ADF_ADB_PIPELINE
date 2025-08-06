@@ -5,12 +5,29 @@
 			"referenceName": "ls_onpremise_sqlserver",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"database_name": {
+				"type": "string"
+			},
+			"table_schema": {
+				"type": "string"
+			},
+			"table_name": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "SqlServerTable",
 		"schema": [],
 		"typeProperties": {
-			"schema": "SalesLT",
-			"table": "Address"
+			"schema": {
+				"value": "@dataset().table_schema",
+				"type": "Expression"
+			},
+			"table": {
+				"value": "@dataset().table_name",
+				"type": "Expression"
+			}
 		}
 	}
 }
