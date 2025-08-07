@@ -24,7 +24,7 @@
 			"value": "DESKTOP-4GO7QUM\\SQLEXPRESS"
 		},
 		"ls_onpremise_sqlserver_properties_typeProperties_database": {
-			"value": "AdventureWorksLT2022"
+			"value": "AdventureWorksDW2022"
 		},
 		"ls_onpremise_sqlserver_properties_typeProperties_userName": {
 			"value": "sa_khaza"

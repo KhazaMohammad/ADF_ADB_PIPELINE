@@ -33,7 +33,7 @@
 		},
 		"ls_onpremise_sqlserver_properties_typeProperties_database": {
 			"type": "string",
-			"defaultValue": "AdventureWorksLT2022"
+			"defaultValue": "AdventureWorksDW2022"
 		},
 		"ls_onpremise_sqlserver_properties_typeProperties_userName": {
 			"type": "string",
