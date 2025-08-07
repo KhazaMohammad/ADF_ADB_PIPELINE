@@ -5,7 +5,7 @@
 		"type": "SqlServer",
 		"typeProperties": {
 			"server": "DESKTOP-4GO7QUM\\SQLEXPRESS",
-			"database": "AdventureWorksLT2022",
+			"database": "AdventureWorksDW2022",
 			"encrypt": "optional",
 			"trustServerCertificate": false,
 			"authenticationType": "SQL",
